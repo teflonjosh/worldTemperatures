@@ -1,6 +1,13 @@
 # World Weather 
 Description: User can select (click) on any image of famos city and review weather in real tine. 
 
+## Tech Stack
+
+**Client:** 
+- HTML5
+- CSS 
+- JavaScript
+
 
 ## Acknowledgements
 This project benefited from the assistance provided by OpenAI's language model. 
