@@ -1,22 +1,23 @@
-/* PAGE STRUCTURE and SECTIONS*/
+ /* PAGE STRUCTURE and SECTIONS*/
 body {
 color: black;
 width: 100%;
 margin: 0;
 text-align: center;
-background-color: whitesmoke;
+background-color: rgb(236, 229, 229);
 }
 Footer {
 position: fixed;  /* Sticky OR Fixed */  
 bottom: -1px;
 width: 100%;
 margin: 0px;
-height: 3em;
+height: 2em;
 background-image: url("https://upload.wikimedia.org/wikipedia/commons/c/cb/Ka%C3%A7kar_Mountains_Night_Sky_View.jpg");
 background-size: cover;
 color: white;
 margin-bottom: 1px;
 padding-bottom:15px;
+padding-top: 10px;
 border-top: 10px solid rgb(153, 159, 167);
 }  
 details {
@@ -25,7 +26,7 @@ details {
     margin-bottom: 1em;
 }
 #weather {
-    margin-top: 6.5em;
+    margin-top: 4em;
     margin-bottom: 6em;
     padding: 1em;
     display: flexbox;
@@ -53,7 +54,7 @@ height: 15em;
 padding: .5px;
 filter: blur(.75px);
 border: 2px solid #738aa9;
-margin-top: 2em;
+margin-top: 1em;
 }
 img:hover {
 filter: blur(0px);
@@ -71,7 +72,7 @@ top: 0;
 left: 0;
 z-index: 999;
 width: 100%; 
-height: 5em;
+height: 3em;
 transition: background-image 0.2s ease-in-out;
 transition: color 0.2s ease-in-out;
 border-bottom: 10px solid rgb(153, 159, 167);
